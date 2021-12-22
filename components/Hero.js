@@ -30,7 +30,7 @@ const Hero = () => {
             variants={titleAnim}
             className="text-2xl mt-2 font-bold text-gray-400"
           >
-            Web Developer And Designer
+            Web Developer &middot; UI/UX Designer &middot; Motion Designer
           </motion.h3>
         </motion.div>
         {/* <p className="font-medium text-lg text-gray-500 mt-6 w-3/4">
