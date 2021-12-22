@@ -1,10 +1,11 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gray-100">
+    <div className="bg-gray-100">
       <Head>
         <title>Saket Khare</title>
         <link rel="icon" href="/favicon.ico" />
@@ -16,6 +17,7 @@ export default function Home() {
 
       <Navbar />
       <Hero />
+      <Projects />
     </div>
   );
 }
