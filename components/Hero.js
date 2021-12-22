@@ -11,7 +11,7 @@ import {
 import { imgAnim, revealAnim, titleAnim } from "../animation";
 const Hero = () => {
   return (
-    <div className="h-[60vh] flex flex-col space-y-8 justify-between px-4 md:flex md:flex-row md:space-y-0 md:items-center lg:px-32 ">
+    <div className="h-[60vh] flex flex-col space-y-8 justify-between px-4 md:flex md:flex-row md:space-y-0 md:items-center lg:px-32 mt-10">
       <motion.div className="md:w-3/4">
         <motion.div className="overflow-hidden">
           <motion.h1

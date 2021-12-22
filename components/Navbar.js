@@ -14,7 +14,7 @@ const Navbar = () => {
         <div>
           <h1 className="font-bold text-lg md:text-2xl">Saket Khare</h1>
         </div>
-        <div className="flex space-x-2 md:space-x-10 items-center">
+        <div className="flex space-x-6 md:space-x-10 items-center">
           <a className="font-medium md:text-lg lg:text-xl" href="#">
             Home
           </a>
