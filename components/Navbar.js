@@ -1,5 +1,7 @@
+import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
+import { NavAnim } from "../animation";
 const Navbar = () => {
   //nav state
   const [navState, setNavState] = React.useState(false);
@@ -9,7 +11,12 @@ const Navbar = () => {
   };
 
   return (
-    <header className="sticky top-0 bg-white z-10">
+    <motion.header
+      initial="hidden"
+      animate="show"
+      variants={NavAnim}
+      className="sticky top-0 bg-white z-10"
+    >
       <div className="h-[10vh] flex justify-between items-center lg:px-32 px-4 shadow">
         <div>
           <h1 className="font-bold text-lg md:text-2xl">Saket Khare</h1>
@@ -32,7 +39,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </header>
+    </motion.header>
   );
 };
 

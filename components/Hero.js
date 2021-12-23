@@ -75,7 +75,7 @@ const Hero = () => {
           </motion.a>
         </motion.div>
       </motion.div>
-      <motion.div className="overflow-hidden md:w-1/4 grid place-items-center rounded-lg">
+      <motion.div className="overflow-hidden rounded-lg">
         <motion.img
           initial="hidden"
           animate="show"

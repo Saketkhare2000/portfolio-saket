@@ -12,6 +12,7 @@ export const titleAnim = {
     },
   },
 };
+
 export const revealAnim = {
   hidden: {
     opacity: 0,
@@ -35,6 +36,19 @@ export const imgAnim = {
   show: {
     opacity: 1,
     scale: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeInOut",
+    },
+  },
+};
+
+export const NavAnim = {
+  hidden: {
+    y: -100,
+  },
+  show: {
+    y: 0,
     transition: {
       duration: 0.5,
       ease: "easeInOut",
