@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = ({ title, desc, url, code, img }) => {
   return (
-    <div className="flex flex-col border transition-all ease-out duration-150 bg-white max-h-[600px] rounded-lg p-8 hover:shadow-lg max-w-sm justify-between">
+    <div className="flex flex-col w-full border transition-all ease-out duration-150 bg-white max-h-[600px] rounded-lg p-8 hover:shadow-lg md:max-w-sm justify-between mb-5">
       <Image
         width={300}
         height={300}

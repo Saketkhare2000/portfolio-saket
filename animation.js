@@ -27,6 +27,20 @@ export const revealAnim = {
     },
   },
 };
+export const revealAnim2 = {
+  hidden: {
+    opacity: 0,
+  },
+  staggerChildren: 0.1,
+
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 2,
+      ease: "easeInOut",
+    },
+  },
+};
 
 export const imgAnim = {
   hidden: {
